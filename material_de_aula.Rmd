@@ -1,0 +1,42 @@
+---
+title: "Material de Aula"
+output: ioslides_presentation
+widescreen: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## R Markdown
+
+Você sabia que é possível criar apresentações muito bonitas usando R Markdown?
+
+Além de apresentações, existe uma infinidade de documentos que você pode construir aqui, nesse notepad simplezinho.
+
+Dá pra fazer PDFs, arquivos do Word, HTML... E além disso, você não precisa ficar horas e horas tentando fazer seus gráficos e suas tabelas ficarem alinhados ou do tamanho certo com suas habilidades ninja no mouse. Também dá pra incorporar pedaços de código no texto e deixar sua análise mais fluida e interessante.
+
+## Por onde começar
+Nos próximos slides, vou mostrar alguns exemplos e também o passo a passo.
+
+Site mara pra consulta:  <http://rmarkdown.rstudio.com>.
+
+
+## Slide with Bullets
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+## Slide with R Output
+
+```{r cars, echo = TRUE}
+summary(cars)
+```
+
+## Slide with Plot
+
+```{r pressure}
+plot(pressure)
+```
+
